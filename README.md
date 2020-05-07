@@ -1,9 +1,9 @@
 How to run:
 
-clone the repo.
-open a terminal.
-type 'npm install' and let the installation finish.
-create a file named '.env' in the root
+- clone the repo.
+- open a terminal.
+- type 'npm install' and let the installation finish.
+- create a file named '.env' in the root
 
 
 fill it with the following:
@@ -23,8 +23,9 @@ fill it with the following:
 - DB_TYPE = mysql
 
 
-NOTE: if you are planning to use SQLite, leave the NODE_ENV as it is.
-However if you wanted to use MySQL change NODE_ENV to 'production' and change everything starting with
+NOTE: 
+- if you are planning to use SQLite, leave the NODE_ENV as it is.
+- However if you wanted to use MySQL change NODE_ENV to 'production' and change everything starting with
 'DB_' to fit your database.
 
 IF YOU USED NODE_ENV = development the program automatically migrate the database for you.
